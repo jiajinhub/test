@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://ep-ancient-wind-a1zl63t85-pooler.ap-southeast-1.postgres.vercel-storage.com:5432/verceldb
+    username: default
+    password: l8SGeLFCQ2pW
+
+  #spring.jpa.properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
