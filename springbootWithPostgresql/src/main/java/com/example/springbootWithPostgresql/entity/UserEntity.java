@@ -3,7 +3,7 @@ package com.example.springbootWithPostgresql.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "userTest", schema = "public")
+@Table(name = "usertest", schema = "public")
 public class UserEntity {
 
     @Id

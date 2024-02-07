@@ -15,7 +15,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping
+    @RequestMapping("/test")
     public List<UserEntity> getAllUser(){
         List<UserEntity> users = userService.getAllUser();
         System.out.println("users : "+users);

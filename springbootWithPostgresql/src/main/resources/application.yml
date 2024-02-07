@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://ep-ancient-wind-a1zl63t85-pooler.ap-southeast-1.postgres.vercel-storage.com:5432/verceldb
-    username: default
-    password: l8SGeLFCQ2pW
+    url: jdbc:postgresql://aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres
+    username: postgres.iervwijfzownyighfmst
+    password: qopznm1290!
 
   #spring.jpa.properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
 
